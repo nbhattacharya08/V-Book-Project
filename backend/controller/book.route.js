@@ -17,6 +17,6 @@ router.get("/add" , async (req,res) => {
 	}catch(e){
 		res.status(500).send("book not added")
 	}
-}
+})
 
 module.exports = router;
